@@ -1,7 +1,7 @@
 {
   "name": "react-native-odoo",
-  "version": "0.5.0",
   "description": "React Native library for Odoo using JSON-RPC",
+  "version": "1.0.0",
   "main": "./lib/index.js",
   "directories": {
     "test": "test"
