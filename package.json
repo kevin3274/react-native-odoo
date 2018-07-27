@@ -1,36 +1,32 @@
 {
   "name": "react-native-odoo",
-  "description": "React Native library for Odoo using JSON-RPC",
   "version": "1.0.0",
+  "description": "React Native library for Odoo using Fetch API and JSON-RPC",
+  "keywords": [
+    "odoo",
+    "openerp",
+    "jsonrpc",
+    "react-native"
+  ],
+  "homepage": "https://github.com/cesar-gutierrez/react-native-odoo",
+  "bugs": {
+    "url": "https://github.com/cesar-gutierrez/react-native-odoo/issues"
+  },
+  "license": "MIT",
   "main": "./lib/index.js",
   "directories": {
     "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesar-gutierrez/react-native-odoo"
+  },
   "scripts": {
     "test": "mocha test"
   },
-  "engines": {
-    "node": ">=0.11.16"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kevin3274/react-native-odoo.git"
-  },
-  "keywords": [
-    "odoo",
-    "openerp",
-    "jsonrpc"
-    "react-native"
-  ],
   "author": {
-    "name": "Kevin Wang",
-    "email": "kevin_327@163.com"
-  },
-  "bugs": {
-    "url": "https://github.com/kevin327/react-native-odoo/issues"
-  },
-  "homepage": "https://github.com/kevin3274/react-native-odoo",
-  "dependencies": {
+    "name": "César Gutiérrez Olivares",
+    "email": "hello@cesar.codes"
   },
   "devDependencies": {
     "gulp": "^3.8.11",
@@ -39,9 +35,8 @@
   },
   "maintainers": [
     {
-      "name": "kevin3274",
-      "email": "kevin_327@163.com"
+      "name": "César Gutiérrez Olivares",
+      "email": "hello@cesar.codes"
     }
-  ],
-  "readme": "ERROR: No README data found!"
+  ]
 }
