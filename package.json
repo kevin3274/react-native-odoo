@@ -1,6 +1,6 @@
 {
-  "name": "react-native-odoo",
-  "version": "1.0.0",
+  "name": "react-native-odoo-promise-based",
+  "version": "0.1.0",
   "description": "React Native library for Odoo using Fetch API and JSON-RPC",
   "keywords": [
     "odoo",
@@ -8,9 +8,9 @@
     "jsonrpc",
     "react-native"
   ],
-  "homepage": "https://github.com/cesar-gutierrez/react-native-odoo",
+  "homepage": "https://github.com/cesar-gutierrez/react-native-odoo-promise-based",
   "bugs": {
-    "url": "https://github.com/cesar-gutierrez/react-native-odoo/issues"
+    "url": "https://github.com/cesar-gutierrez/react-native-odoo-promise-based/issues"
   },
   "license": "MIT",
   "main": "./lib/index.js",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cesar-gutierrez/react-native-odoo"
+    "url": "git+https://github.com/cesar-gutierrez/react-native-odoo-promise-based"
   },
   "scripts": {
     "test": "mocha test"
@@ -27,11 +27,6 @@
   "author": {
     "name": "César Gutiérrez Olivares",
     "email": "hello@cesar.codes"
-  },
-  "devDependencies": {
-    "gulp": "^3.8.11",
-    "gulp-mocha": "^2.0.0",
-    "sinon": "^1.12.2"
   },
   "maintainers": [
     {
