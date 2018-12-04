@@ -56,7 +56,7 @@ const  params = {
   fields: [ 'name' ],
 }
 
-odoo.get('res.partner', params)
+odoo.get('res.partner', params, context)
 .then(response => { /* ... */ })
 .catch(e => { /* ... */ })
 ```
@@ -75,7 +75,7 @@ const  params = {
   offset:  0,
 }
 
-odoo.search_read('product.product', params)
+odoo.search_read('product.product', params, context)
 .then(response => { /* ... */ })
 .catch(e => { /* ... */ })
 ```
@@ -87,7 +87,7 @@ Receives a `model` string and a `params` object with properties corresponding to
 odoo.create('delivery.order.line', {
   sale_order_id: 123
   delivered:  'false',
-})
+}, context)
 .then(response => { /* ... */ })
 .catch(e => { /* ... */ })
 ```
@@ -101,7 +101,7 @@ If you need to update several rows in the database you can take advantage of the
 odoo.update('delivery.order.line', [ids], {
   delivered:  'true',
   delivery_note:  'Delivered on time!'
-})
+}, context)
 .then(response => { /* ... */ })
 .catch(e => { /* ... */ })
 ```
@@ -110,7 +110,7 @@ odoo.update('delivery.order.line', [ids], {
 Receives an Odoo database `model` string and an `ids` array corresponding to the rows you want to delete in the database.
 
 ```js
-odoo.delete('delivery.order.line', [ids])
+odoo.delete('delivery.order.line', [ids], context)
 .then(response => { /* ... */ })
 .catch(e => { /* ... */ })
 ```
