@@ -28,11 +28,12 @@ import Odoo from 'react-native-odoo-promise-based'
 /* Create new Odoo connection instance */
 const odoo = new Odoo({
   host: 'YOUR_SERVER_ADDRESS',
-  port: 8069 /* Defaults to 80 if not specified */
+  port: 8069, /* Defaults to 80 if not specified */
   database: 'YOUR_DATABASE_NAME',
-  username: 'YOUR_USERNAME' /* Optional if using a stored session_id */
-  password: 'YOUR_PASSWORD' /* Optional if using a stored session_id */
-  sid: 'YOUR_SESSION_ID'    /* Optional if using username/password */
+  username: 'YOUR_USERNAME', /* Optional if using a stored session_id */
+  password: 'YOUR_PASSWORD', /* Optional if using a stored session_id */
+  sid: 'YOUR_SESSION_ID', /* Optional if using username/password */
+  protocol: 'https' /* Defaults to http if not specified */
 })
 
 ```
