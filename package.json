@@ -1,6 +1,6 @@
 {
   "name": "react-native-odoo-promise-based",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "React Native library for Odoo using Fetch API and JSON-RPC",
   "keywords": [
     "odoo",
@@ -32,6 +32,10 @@
     {
       "name": "César Gutiérrez Olivares",
       "email": "hello@cesar.codes"
+    },
+    {
+      "name": "Nichita Gruia",
+      "email": "gruianichita@gmail.com"
     }
   ]
 }
