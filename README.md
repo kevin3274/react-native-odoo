@@ -81,6 +81,29 @@ odoo.search_read('product.product', params, context)
 .catch(e => { /* ... */ })
 ```
 
+**Read Group**
+Just like the Search & read, but get the list of records in list view grouped by the given ``groupby`` fields.
+If ``lazy`` true, the results are only grouped by the first groupby and the remaining groupbys are put in the __context key.  
+If ``lazy`` false, all the groupbys are done in one call.
+Returns a promised which resolves to an array of results matching the parameters provided.
+Array containing: all the values of fields grouped by the fields in ``groupby`` argument, 
+``__domain``: array of list specifying the search criteria, ``__context``: array with argument like ``groupby``
+```js
+const  params = {
+  domain: [ ["project_id", "=", 7] ],
+  fields: [ "color", "stage_id" , "sequence"],
+  groupby: [
+    "stage_id"
+  ],
+  order:  'sequence',
+  lazy: true
+}
+
+odoo.read_group('project.task', params, context)
+.then(response => { /* ... */ })
+.catch(e => { /* ... */ })
+```
+
 **Create**
 Receives a `model` string and a `params` object with properties corresponding to the fields you want to write in the row.
 
