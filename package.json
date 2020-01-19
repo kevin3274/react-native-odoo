@@ -1,6 +1,6 @@
 {
   "name": "react-native-odoo-promise-based",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "React Native library for Odoo using Fetch API and JSON-RPC",
   "keywords": [
     "odoo",
@@ -17,6 +17,7 @@
   "directories": {
     "test": "test"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cesar-gutierrez/react-native-odoo-promise-based"
