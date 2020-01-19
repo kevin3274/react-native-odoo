@@ -17,9 +17,6 @@
   "directories": {
     "test": "test"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cesar-gutierrez/react-native-odoo-promise-based.git"
