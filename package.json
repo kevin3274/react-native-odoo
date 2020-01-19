@@ -17,30 +17,20 @@
   "directories": {
     "test": "test"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cesar-gutierrez/react-native-odoo-promise-based"
+    "url": "git+https://github.com/cesar-gutierrez/react-native-odoo-promise-based.git"
   },
   "scripts": {
     "test": "mocha test"
   },
-  "author": {
-    "name": "César Gutiérrez Olivares",
-    "email": "hello@cesar.codes"
-  },
+  "author": "César Gutiérrez Olivares <hello@cesar.codes>",
   "maintainers": [
-    {
-      "name": "César Gutiérrez Olivares",
-      "email": "hello@cesar.codes"
-    },
-    {
-      "name": "Nichita Gruia",
-      "email": "gruianichita@gmail.com"
-    },
-    {
-      "name": "Aidos Kakimzhanov",
-      "email": "aidos.kakimzhan@gmail.com"
-    }
+    "César Gutiérrez Olivares <hello@cesar.codes>",
+    "Nichita Gruia <gruianichita@gmail.com>",
+    "Aidos Kakimzhanov <aidos.kakimzhan@gmail.com>"
   ]
 }
