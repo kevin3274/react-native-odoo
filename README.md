@@ -1,5 +1,7 @@
 # react-native-odoo-promise-based
 
+⚠️ This repository is no longer being maintained. Feel free to use it for reference and forking.
+
 React Native library for Odoo using the Fetch API and JSON-RPC.
 
 This library is a modified version from the original repository and was created to allow authentication using Odoo session ids for in-app session persistence. Also server response handling was reimplemented using Promises instead of callback functions for convenience.
